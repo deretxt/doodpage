@@ -1,8 +1,8 @@
 import { initLazyLoad } from '../../js/lazy-load.js';
 
 const videos = [
-    { id: "dood_id_1", title: "The Avengers" },
-    { id: "dood_id_2", title: "John Wick" },
+    { id: "odurgxw9u2m1", title: "Belinda 1" },
+    { id: "iprcw0axrsuv", title: "Belinda 2" },
     // Tambahkan video lainnya
 ];
 
