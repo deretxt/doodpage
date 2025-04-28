@@ -161,3 +161,50 @@ h1 {
         margin-right: 8px;
     }
 }
+
+
+/* Custom Download Button Styles */
+.custom-download-section {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 3px solid #4a6baf;
+}
+
+.download-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.custom-download-btn {
+    padding: 8px 15px;
+    background: #4a6baf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.custom-download-btn:hover {
+    background: #3a5a9f;
+    transform: translateY(-2px);
+}
+
+.custom-download-btn i {
+    font-size: 14px;
+}
+
+.download-label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
