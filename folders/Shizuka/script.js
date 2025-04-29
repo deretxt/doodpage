@@ -1,11 +1,19 @@
 import { initLazyLoad } from '../../js/lazy-load.js';
 
 const videos = [
-    { id: "02h9n0ccu5md", title: "Chaa 1" },
-    { id: "0gcvw4796txa", title: "Chaa 2" },
-    { id: "j2g0d5ex50gs", title: "Chaa 3" },
-    { id: "5895fenjzgtu", title: "Chaa 4" },
-    { id: "zkv7r4vkvdqa", title: "Chaa 5" },
+    { id: "evsurjqadw8h", title: "Shizuka 1" },
+    { id: "mq9orvjbaaj2", title: "Shizuka 2" },
+    { id: "ydvyt5w00jdm", title: "Shizuka 3" },
+    { id: "4z2q5ig6vy2p", title: "Shizuka 4" },
+    { id: "7764zhtlvdmv", title: "Shizuka 5" },
+    { id: "tusroh7667u5", title: "Shizuka 6" },
+    { id: "hmd5e7lrj22c", title: "Shizuka 7" },
+    { id: "36t33220mukw", title: "Shizuka 8" },
+    { id: "mvwg08m64exc", title: "Shizuka 9" },
+    { id: "wbpp5bbttp31", title: "Shizuka 10" },
+    { id: "mxtnozqcm0pf", title: "Shizuka 11" },
+    { id: "0qbst0bsavo9", title: "Shizuka 12" },
+    { id: "egj149cczngy", title: "Shizuka 13" },
     // Tambahkan video lainnya
 ];
 
@@ -28,6 +36,7 @@ export function loadVideos() {
         `;
         grid.appendChild(videoItem);
     });
+    
     
     // Inisialisasi lazy load setelah video dimuat
     initLazyLoad();

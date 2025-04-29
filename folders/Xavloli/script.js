@@ -1,11 +1,11 @@
 import { initLazyLoad } from '../../js/lazy-load.js';
 
 const videos = [
-    { id: "02h9n0ccu5md", title: "Chaa 1" },
-    { id: "0gcvw4796txa", title: "Chaa 2" },
-    { id: "j2g0d5ex50gs", title: "Chaa 3" },
-    { id: "5895fenjzgtu", title: "Chaa 4" },
-    { id: "zkv7r4vkvdqa", title: "Chaa 5" },
+    { id: "hpcbz8hkxrss", title: "Xavloli 1" },
+    { id: "u4knrs9e84xp", title: "Xavloli 2" },
+    { id: "6i8nro13re0q", title: "Xavloli 3" },
+    { id: "l6zbdl6tyxyv", title: "Xavloli 4" },
+    { id: "czen3k1rjwca", title: "Xavloli 5" },
     // Tambahkan video lainnya
 ];
 
@@ -28,6 +28,7 @@ export function loadVideos() {
         `;
         grid.appendChild(videoItem);
     });
+    
     
     // Inisialisasi lazy load setelah video dimuat
     initLazyLoad();
